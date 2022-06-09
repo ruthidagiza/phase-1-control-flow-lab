@@ -1,7 +1,7 @@
 function scuberGreetingForFeet(valueDistance) {
   if (valueDistance <= 400) {
     return "This one is on me!";
-  } else if (valueDistance <1999 && valueDistance < 2500) {
+  } else if (1999 < valueDistance  && valueDistance < 2500) {
     return "I will gladly take your thirty bucks.";
   } else {
     return "No can do.";
